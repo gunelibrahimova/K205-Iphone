@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "PIZ/7uHT9jiCZtjDla54ZYpAy1aYtJ9S9D/1CP4864o=",
+  "Source": "WepApp",
+  "BasePath": "_content/WepApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WepApp\\wwwroot",
+      "Source": "WepApp",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\WepApp\\WepApp\\wwwroot\\",
+      "BasePath": "_content/WepApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

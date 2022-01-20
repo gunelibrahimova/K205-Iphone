@@ -1,0 +1,55 @@
+﻿@using WepApp.Models
+@*
+*@
+
+
+@foreach(var item in ViewData["products"] as List<Product>)
+{
+    <img src="@item.PhotoUrl" />
+    <h1>@item.Name </h1>
+    <span class="parag-1">@item.Price </span>
+    <p class="parag-2"> Mehsul kodu: @item.MehsulKodu</p>
+    <p>@item.Description</p>
+    <p class="parag-3">Rəngi: @item.Color</p>
+    <p class="parag-4">İstehsal ili: @item.İstehsalIli</p>
+    <p class="parag-3">Növ: @item.Nov</p>
+    <p class= "parag-4"> Ekran: @item.Ekran</p>
+    <p class=" parag-3">Əsas kamera @item.EsasKamera</p>
+    <p class="parag-4">Ön kamera : @item.OnKamera</p>
+    <p class="parag-3">Daxili yaddaş: @item.DaxiliYaddas</p>
+    <p class= "parag-4"> Operativ yaddaş :  @item.OperativYaddas </p>
+    <p class="parag-3" >Əməliyyat sistemi: @item.EmeliyyatSistemi</p>
+}
+
+<style>
+    img{
+        height:400px;
+    }
+    h1{
+        /*margin-left: 150px;*/
+        
+        font-size; 30px;
+    }
+    .parag-1{
+        font-size: 25px;
+        font-weight: bold;
+        color: red;
+        margin-left: 150px;
+    }
+    .parag-2{
+        font-weight:bold;
+        font-size:18px;
+    }
+    .parag-3{
+        font-size:17px;
+        background-color: #F9FBFC;
+        padding: 15px;
+        font-weight:500;
+    }
+    .parag-4{
+        font-size:17px;
+         padding: 15px;
+        font-weight:500;
+    }
+
+</style>
